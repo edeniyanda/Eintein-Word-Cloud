@@ -22,6 +22,9 @@ w_cloud = WordCloud(
 )
 
 word_cloud = w_cloud.generate(text)
+
 plt.imshow(word_cloud)
 plt.axis("off")
 plt.show()
+
+fhand.close()
